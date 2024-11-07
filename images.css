@@ -1,0 +1,155 @@
+/* COMPUTER IMAGE */
+.computer{
+    position: relative;
+    bottom:5%;
+    left:80%;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; 
+}
+.screen{
+    height: 30px;
+    width: 40px;
+    border: 3px solid black;
+    border-image: linear-gradient(to right, red,purple) ;
+    box-shadow: 1px 1px 18px  5px black inset;
+    border-image-slice: 1;
+    padding: 5px;
+    background-image: linear-gradient(to right bottom,rgb(63, 3, 74),rgb(93, 7, 15),rgb(63, 3, 74),rgb(93, 7, 15));
+}
+#stand{
+    height: 7px;
+    width: 4px;
+    background-image: linear-gradient(to right, red,purple) ;
+    box-shadow: 1px 1px 5px  1px purple;
+}
+
+#base{
+    height: 10px;
+    width: 25px;
+    border-radius: 100%;
+    background-image: linear-gradient(to right, red,purple) ;
+}
+
+
+/* download-button */
+.download-button{
+    position: relative;
+    left:360px ;
+    top: 15px;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px 7px rgba(209, 107, 200, 0.917) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to bottom, rgb(215, 103, 235),rgb(218, 98, 110));
+    
+}
+.download {
+    font-size: 40px;
+    font-weight: 500;
+    background-image:linear-gradient(to bottom, rgb(94, 8, 109),rgb(133, 18, 29));
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/* KIDS-BOX IMAGE */
+.kids{
+    position: relative;
+    left: 340px;
+    bottom: 5px;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sq{
+    margin-left: 2px;
+    height: 40px;
+    width: 40px;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+#sq1{
+    background:linear-gradient(to bottom, pink,rgb(194, 62, 204));
+    box-shadow: 0px 0px 9px 2px rgb(118, 29, 110);
+}
+#sq2{
+    background:linear-gradient(to bottom, rgb(121, 13, 141),rgb(161, 25, 39));
+    box-shadow: 0px 0px 9px 2px rgb(73, 6, 18);
+    position: relative;
+    top: -13px;
+    left: 20px;
+}
+#eyes {
+    font-display: flex;
+    position: relative;
+    top: 12px;
+    height: 10px;
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+#eyes > span{
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0px 6px 0px 6px;
+}
+.eyes1 > span{
+    background:linear-gradient(to bottom, rgb(121, 13, 141),rgb(161, 25, 39));
+}
+#mouth{
+    height: 3px;
+    width: 20px;
+    background-color: white;
+    position: relative;
+    top: 18px;
+    left: 12px;
+    border-radius: 50%;
+}
+#sq1 > #mouth{
+    background:linear-gradient(to bottom, rgb(121, 13, 141),rgb(161, 25, 39))
+}
+
+/* TELESCOPE IMAGE */
+.telescope-image, .telescope, .lens{
+    position: relative;
+}
+.telescope-image{
+    width: 100px;
+    left:320px;
+    top:22px;
+}
+.telescope{
+    height:100px;
+    width: 100px;
+    background-color: black;
+    background-size: cover;
+    font-size: 62px;
+    background-image:linear-gradient(to bottom, red,lightyellow);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    text-shadow: 1px 0px 1px red;
+    transform: rotate(180deg);
+}
+.lens{
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-image: linear-gradient(to right bottom,rgb(148, 116, 148),rgb(215, 150, 150),lightyellow);
+    box-shadow: 0px 0px 2px 3px purple inset;
+    top:75px;
+    right: 2px;
+}
