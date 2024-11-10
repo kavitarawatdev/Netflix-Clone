@@ -10,6 +10,8 @@ let qstns = document.querySelectorAll(".FAQ");
 let plus = document.querySelectorAll(".fa-plus");
 let xmark = document.querySelectorAll(".fa-xmark");
 
+
+
 //function for showing rightmovie bar
 const rightMovieBar = () => {
   for(movies of firstMovieBar){
@@ -84,6 +86,7 @@ const hidePlusMark = (P)=> {
 //event listener for each faq
 qstns.forEach((qsn,Q)=> {
   qsn.addEventListener("click", (e)=> {
+    document.querySelector("footer").style.top ="480%";
     if(Q===0){
       showAns(0);
       showXMark(0);

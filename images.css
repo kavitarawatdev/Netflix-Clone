@@ -2,7 +2,7 @@
 .computer{
     position: relative;
     bottom:5%;
-    left:80%;
+    left:75%;
     height: 80px;
     width: 80px;
     display: flex;
@@ -38,8 +38,8 @@
 /* download-button */
 .download-button{
     position: relative;
-    left:360px ;
-    top: 15px;
+    left: 75%;
+    bottom: 0%;
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -61,8 +61,8 @@
 /* KIDS-BOX IMAGE */
 .kids{
     position: relative;
-    left: 340px;
-    bottom: 5px;
+    left: 70%;
+    bottom: 5%;
     height: 90px;
     width: 90px;
     display: flex;
@@ -128,8 +128,8 @@
 }
 .telescope-image{
     width: 100px;
-    left:320px;
-    top:22px;
+    left: 65%;
+    bottom: 0%;
 }
 .telescope{
     height:100px;
