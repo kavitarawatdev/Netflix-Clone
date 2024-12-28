@@ -5,6 +5,14 @@
     border: border-box;
     color: white;
 }
+:root{
+    --pink-shade: ;
+    --purple-shade: ;
+    --red-color:;
+    --red-hover: rgba(255, 0, 0, 0.664);
+    --main-black:rgba(0, 0, 0, 0.81); 
+    --text-grey:rgba(255, 255, 255, 0.7);
+}
 body{
     background-color: black;
     display: flex;
@@ -14,7 +22,6 @@ body{
 }
 
 /* header */
-
 header{
     background-image: url(netflixImages/netflixBg.jpg);
     background-size: cover;
@@ -23,11 +30,10 @@ header{
 }
 
 /* nav-bar */
-
 .navbar{
     height: 120px;
     padding: 0px 32px 0px 32px;
-    background-color:  rgba(0, 0, 0, 0.81);
+    background-color: var(--main-black) ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +52,6 @@ header{
 
 .navlogo{
     height: 45px;
-   
     margin: 0px 20% 0px 5px;
     display: flex;
     align-items: flex-start;
@@ -68,7 +73,7 @@ header{
     align-items: center;
 }
 .lang{
-    border: 1px solid rgba(255, 255, 255, 0.7);
+    border: 1px solid var(--text-grey);
     margin: 5px 10px 0px 0px;
     border-radius: 7px;
     display: flex;
@@ -123,14 +128,13 @@ select > option{
 }
 
 .navsignin > a:hover{
-    background-color: rgba(255, 0, 0, 0.664);
+    background-color: var(--red-hover);
 }
 
 /* nav box */
-
 .navBox{
     height:598px;
-    background-color:  rgba(0, 0, 0, 0.81);
+    background-color:  var(--main-black);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -205,7 +209,7 @@ select > option{
     align-items: center;
 }
 .navBoxBottom > button:hover{
-    background-color: rgba(255, 0, 0, 0.664);
+    background-color: var(--red-hover);
 }
 .nav-footer{
     position: relative;
@@ -221,17 +225,8 @@ select > option{
     box-shadow: 30px 20px 40px 30px rgb(112, 112, 177) ;
 
 }
-/* .blank{
-    background-color: black;
-    margin-top: 150px;
-    height: 140px;
-    width: 100%; 
-    box-shadow: 0px 0px 0px 12px black;
-} */
-
 
 /* main tag */
-
 main{
     position: absolute;
     top:125% ;
@@ -247,7 +242,6 @@ main{
 }
 
 /* Trending box */
-
 .trending{
     margin-top: 50px;
     height: 312px;
@@ -308,7 +302,6 @@ main{
     display: none;
 }
 
-
 .movie > img{
     width: 100%;
     height: 100%;
@@ -349,9 +342,7 @@ main{
     background-color:  rgba(255, 255, 255, 0.412) ;
 }
 
-
 /* entertainment box */
-
 .entertainment{
     width: 100%;
     height: auto;
@@ -397,7 +388,7 @@ main{
 .box > p{
     height: 63px;
     width: 75%;
-    color: (255, 255, 255, 0.7);
+    color: var(--text-grey);
     font-size: 16px;
 }
 
@@ -503,7 +494,7 @@ footer > div {
     display: flex;
     align-items: center;
     font-size: 18px;
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-grey);
 }
 .links > ul{
     height: 200px;
@@ -520,7 +511,7 @@ footer > div {
     margin: 0px 0px 15px 0px;
 
 }li > a{
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-grey);
 }
 .footerlang {
     width: 15%;
@@ -528,7 +519,7 @@ footer > div {
 }
 
 .app > p{
-    color: rgba(255, 255, 255, 0.7);
+    color: var(--text-grey);
     width: 98%;
     margin-top: 10px;
 }
